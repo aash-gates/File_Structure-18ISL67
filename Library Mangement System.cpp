@@ -36,7 +36,7 @@ COORD coord         = {0, 0};
 //list of global variable
 int s;
 char findbook;
-char password[10]= {"codewithc"};
+char password[10]= {"epcet"};
 
 void gotoxy (int x, int y) {
 	coord.X             = x;
@@ -119,12 +119,14 @@ void mainmenu() {
 			gotoxy(16,3);
 			printf("\tVictory Library");
 			gotoxy(16,4);
-			printf("\tMini Project in C");
+			printf("\tMini Project in C++");
 			gotoxy(16,5);
-			printf("\tis brought to you by");
+			printf("\tCreated By Aashik J Krishnan");
 			gotoxy(16,7);
-			printf("\tCode with C Team");
+			printf("\tMade with Dedication By Victory Computers/Education Media");
 			gotoxy(16,8);
+			printf("\tcatch me at http://aashgates.c1.biz");
+			gotoxy(16,9);
 			printf("******************************************");
 			gotoxy(16,10);
 			printf("*******************************************");
